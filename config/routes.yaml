@@ -1,0 +1,40 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+index:
+  path: /
+  controller: App\Controller\HomeController::index
+
+dataform:
+  path: /form
+  controller: App\Controller\HomeController::dataform
+
+results:
+  path: /results
+  controller: App\Controller\HomeController::results
+
+getAllBrands:
+  path: /getAllBrands
+  controller: App\Controller\APIController::getAllBrands
+  methods: [GET]
+
+getModels:
+  path: /getModels/{brand}
+  controller: App\Controller\APIController::getModels
+  methods: [GET]
+
+getEngines:
+  path: /getEngines/{model}
+  controller: App\Controller\APIController::getEngines
+  methods: [GET]
+
+getPeopleCapacity:
+  path: /getPeopleCapacity/{brand}/{model}/{engine}
+  controller: App\Controller\APIController::getPeopleCapacity
+  methods: [GET]
+
+calculateResults:
+  path: /calculateResults
+  controller: App\Controller\ResultController::calculate
+  methods: [POST]

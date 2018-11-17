@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ecopilot</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+
+
+            <div id="page-wrapper">
+
+                <div class="row">
+
+
+                    <div class="col-lg-12">
+                        <a href="/home">
+                            <img class="img-rounded" style="width: 100%; text-align: center; padding: 7px" src="../img/ecopilot_logo.png">
+                        </a>
+
+                        <h1 class="page-header">Ruta</h1>
+                    </div>
+
+                    <!-- /.col-lg-12 -->
+                </div>
+                <div class="panel-body">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                            <i class="fa fa-comment fa-fw"></i> Origen: Santander, Cantanbria
+                            <span class="pull-right text-muted small"><em></em>
+                            </span>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <i class="fa fa-twitter fa-fw"></i> Destino: Madrid, Centro
+                            <span class="pull-right text-muted small"><em></em>
+                            </span>
+                        </a>
+
+                    </div>
+
+                </div>
+                <!-- /.row -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-bell fa-fw"></i> Mapa
+                    </div>
+
+                    <div class="panel-body">
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-bell fa-fw"></i> Ahorro
+                    </div>
+
+                    <div class="panel-body"><h3>Ha logrado un <b>23%</b> de ahorro de combustible</h3> 
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-bell fa-fw"></i> Panel de Consejos
+                    </div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">                
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <div class="row">
+                                            <div class="col-xs-3">
+                                             <img src="../img/overcast.png" style="width:150%;">
+                                         </div>
+                                         <div class="col-xs-9 text-right">
+                                            <div class="huge">26℃</div>
+                                            <div>Lluvia</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="panel-footer">
+
+                                    <button type="button" style="background-color: #337ab7" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModalClima">Ver Más</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModalClima" role="dialog">
+                                        <div class="modal-dialog">                                            
+
+                                           <!-- Modal content-->
+                                           <div class="modal-content">
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title">Condición Climatológica</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                              <p>Más información sobre la condición climatológica y todo lo que se nos ocurra!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class="clearfix"></div>
+                          </div>
+
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <img src="../img/window.png" style="width:150%;">
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">Ventanas</div>
+                                    <div>Cerradas</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-footer">
+                           <button type="button" style="background-color: #5cb85c" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModalVentana">Ver Más</button>
+
+                           <!-- Modal -->
+                           <div class="modal fade" id="myModalVentana" role="dialog">
+                            <div class="modal-dialog">                                            
+
+                               <!-- Modal content-->
+                               <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">¿Calor?</h4>
+                              </div>
+                              <div class="modal-body">
+                                  <p>Las ventanillas es un recurso que puede evitar en ciertos casos consumos extra a causa del A/C</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="clearfix"></div>
+              </div>
+
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <img src="../img/ac.png" style="width:150%;">
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">A/C</div>
+                        <div>Activo</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-footer">
+                <button type="button" style="background-color: #f0ad4e" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModalAcondicionado">Ver Más</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModalAcondicionado" role="dialog">
+                    <div class="modal-dialog">                                            
+
+                       <!-- Modal content-->
+                       <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">A/C</h4>
+                      </div>
+                      <div class="modal-body">
+                          <p>El aire acondicionado es un recurso que puede evitar en ciertos casos consumos extra a causa las ventanillas</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="clearfix"></div>
+      </div>
+
+  </div>
+</div>
+<div class="col-lg-3 col-md-6">
+    <div class="panel panel-red">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-xs-3">
+                 <img src="../img/tire.png" style="width:150%;">
+             </div>
+             <div class="col-xs-9 text-right">
+                <div class="huge">2.3/2.1</div>
+                <div>Presión recomendada</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-footer">
+        <button type="button" style="background-color: #d9534f" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModalPresion">Ver Más</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModalPresion" role="dialog">
+            <div class="modal-dialog">                                            
+
+               <!-- Modal content-->
+               <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">La presión de tus neumáticos es muy importante</h4>
+              </div>
+              <div class="modal-body">
+                  <p>Las ventanillas es un recurso que puede evitar en ciertos casos consumos extra a causa del A/C</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div> 
+<div class="row">
+
+    <div class="col-md-6">
+        <center>
+            <a href="forms.html"><button class="btn btn-lg btn-success">Volver a inicio</button></a>
+        </center>
+    </div>
+
+
+    <div class="col-md-6">
+        <center>
+            <a href="#wrapper"><button type="button" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></button></a>
+        </center>
+    </div>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="/metisMenu/metisMenu.min.js"></script>
+
+<!-- Morris Charts JavaScript -->
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
